@@ -30,5 +30,5 @@ async function webCat(url) {
   if (path.slice(0, 4) === 'http') {
     webCat(path);
   } else {
-    cat(path);
+    myCat(path);
   }
